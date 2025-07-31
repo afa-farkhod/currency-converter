@@ -1,4 +1,4 @@
-# web-converter
+# Currency - Converter
 USD ↔ KRW Currency Web Converter
 
 A simple web application that converts between **USD and KRW** using **real-time exchange rates** from an online API.
