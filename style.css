@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f5f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.converter-box {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    width: 80%;
+    padding: 6px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 8px;
+    padding: 6px 12px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.rate-info {
+    font-size: 14px;
+    color: gray;
+}
+
+.info-bar {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto 10px;
+    padding: 12px 16px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.info-bar a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.info-bar a:hover {
+    text-decoration: underline;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fancy-line {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, #ccc, #666, #ccc);
+    margin: 20px 0;
+    width: 100%;
+    max-width: 300px;
+}
+
+.rate-meta {
+    text-align: left;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    font-size: 13px; /* or 12px, adjust as needed */
+    color: #555; /* optional for softer tone */
+}

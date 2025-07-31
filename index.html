@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF‑8" />
+    <meta name="viewport" content="width=device‑width, initial‑scale=1.0" />
+    <title>USD ↔ KRW Converter</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+    <h1>USD < & > KRW Converter</h1>
+    <div class="converter-box">
+        <label>USD:</label>
+        <input type="number" id="usd" placeholder="Enter USD" />
+        <button id="toKrwBtn">Convert to KRW</button>
+        <p id="krwResult"></p>
+        <p class="rate-info" id="rateInfo">Fetching latest rate</p>
+    </div>
+    <div class="converter-box">
+        <label>KRW:</label>
+        <input type="number" id="krw" placeholder="Enter KRW" />
+        <button id="toUsdBtn">Convert to USD</button>
+        <p id="usdResult"></p>
+    </div>
+    <p class="rate-info" id="rateInfo">Fetching latest rate</p>
+    <hr class="fancy-line">
+    <div class="rate-meta">
+        <p id="rateDate">Exchange Rate Date: ...</p>
+        <p id="rateLink">API Source: ...</p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
